@@ -1,0 +1,13 @@
+{application,bunsan_users_umbrella,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
+                             postgrex,ecto]},
+              {description,"bunsan_users_umbrella"},
+              {modules,['Elixir.BunsanUsersUmbrella',
+                        'Elixir.BunsanUsersUmbrella.Application',
+                        'Elixir.BunsanUsersUmbrella.DataCase',
+                        'Elixir.BunsanUsersUmbrella.Repo',
+                        'Elixir.BunsanUsersUmbrella.User']},
+              {registered,[]},
+              {vsn,"0.0.1"},
+              {mod,{'Elixir.BunsanUsersUmbrella.Application',[]}},
+              {extra_applications,[logger,runtime_tools]}]}.
